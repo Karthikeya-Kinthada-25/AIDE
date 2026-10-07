@@ -1,0 +1,44 @@
+# Python virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Uploaded evidence and generated reports
+backend/uploads/
+backend/reports/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python model/runtime cache
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Project documentation
+*.pdf
+*.docx
+# Unused AI model checkpoint
+backend/models/aide_tampering_resnet18.pth
